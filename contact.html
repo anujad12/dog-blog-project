@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <nav role="navigation" aria-label="main menu">
+        <ul class="navbar">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./food.html">Food</a></li>
+            <li><a href="./contact.html">Contact Me</a></li>
+        
+        </ul>
+    </nav>
+    <h1>Contact</h1>
+    <main>
+        <form action="success.html" method="get" class="contact-form">
+            <label for= "name"> Name </label>
+            <input name="name" id ="name" required>
+            
+            <label for= "email"> Email </label>
+            <input name="email" id ="email" required>
+            
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="5" maxlength="250" required></textarea>
+            
+            <p id="char-count">250 characters remaining</p>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+    
+
+<footer>
+    <p> &copy; 2024 Duke P. Dahal. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
